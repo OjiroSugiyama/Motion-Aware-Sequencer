@@ -25,7 +25,7 @@ class View(tk.Frame):
         super().__init__(master)
         #ウィンドウの生成
         width, height = master.winfo_screenwidth(), master.winfo_screenheight()
-        self.master.attributes("-zoomed", "1")
+        self.master.attributes('-fullscreen', True) #("-zoomed", "1")
         self.master.title(u"loop")
         self.master.configure(bg="#fff")  
         self.createView(self.master, width, height)

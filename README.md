@@ -4,14 +4,24 @@ Motion-Aware Sequencer is a loop sequencer based on the excitement of the video.
 
 ## Requirements
 
-* OS : Linux
+* OS : Linux or Windows
 * Python 3.6
+* VLC media player  
+<https://www.videolan.org/index.html>
+* FFmpeg  
+<https://www.ffmpeg.org/>
 
-<!-- 1. Rename the files. -->
 ## Installation
 
 1. Clone the repository.
-1. If necessary, create and activate a new virtual environment.
+1. If necessary, install python version management system and switch to python 3.6.
+1. If necessary, create and activate a new virtual environment.  
+**Create virtual environment**  
+`python -m venv [venv dir name]`  
+**Activate virtual environment**  
+Linux `source [venv dir name]/bin/activate`  
+Windows `[venv dir name]\Scripts\activate`  
+
 1. Install dependencies with requirements.txt.
 1. Purchase the following sound sources.  
   Sound PooL vol.1  
